@@ -55,7 +55,7 @@
     grid-row: 1/-1;
     background-size: cover;
     background-position: right top;
-    background-image: url(/css/1.png);
+    background-image: url(https://image.freepik.com/vector-gratis/agencia-reclutamiento-busca-candidatos-trabajo_1262-19874.jpg);
     opacity: 0.9;
     clip-path: polygon(0 0, 100% 0%, 100% 0, 0 0);
     animation: show 2s 2.5s cubic-bezier(1,.08,.76,.94) forwards;
