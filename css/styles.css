@@ -15,6 +15,17 @@
     display: inline-block;
 }
 
+.navtopv2:after {
+    
+    width: 50%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    content: "";
+    height: 124px;
+    display: inline-block;
+}
+
 .text-proy{
     width: 800px;
     height: 200px;
@@ -190,6 +201,9 @@
         display: none;
     }
     .navtopv1:after {
+        display: none;
+    }
+    .navtopv2:after {
         display: none;
     }
     .menu-skew:after {

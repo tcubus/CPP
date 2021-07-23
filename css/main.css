@@ -2036,7 +2036,7 @@ select::-ms-expand {
 --------------------------------------*/
 /* header-top */
 .t-head {
-    background: #333;
+    background:#cf142b;
     padding-bottom: 19px;
     padding-top: 19px;
     color: #fff;
@@ -2087,12 +2087,12 @@ select::-ms-expand {
 .navtopv2 .ic-search {
     right: 0;
 }
-.navtopv2 .navbar-nav {
+/*.navtopv2 .navbar-nav {
     position: inherit;
     float: right;
     padding: 0;
     padding-top: 34px;
-}
+}*/
 /* Intro */
 .c-icon {
     padding-top: 100px;
