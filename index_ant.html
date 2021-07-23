@@ -7,6 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CPP</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.ico" />
     <meta name="description" content="Construct theme template">
     <meta name="keywords" content="Construct theme template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,12 +28,16 @@
     <link href="vendor/revolution/css/layers.css" rel="stylesheet">
     <link href="vendor/revolution/css/navigation.css" rel="stylesheet">
     <link href="vendor/revolution/css/settings.css" rel="stylesheet">
+
+
     <!--Theme style-->
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    
+    <link href="css/stylep.scss" rel="stylesheet">
+
 </head>
+
 <body>
     <!-- Loader website -->
     <div class="page-loader">
@@ -43,12 +48,13 @@
     </div>
     <!-- End Loader website -->
     
-    <!-- Content Page : Homepage 01-->
+    <!-- Content Page : Homepage 1-->
     <div class="page-wraper homepage-01">
         <div class="search">
             <input type="text" class="ip-search" placeholder="Buscar...">
         </div>
         <header>
+
             <div class="t-head">
                 <div class="container">
                     <div class="left-content">
@@ -65,7 +71,7 @@
                 </div>
             </div>
             
-            <nav class="navbar navbar-default navtopv2">
+            <nav class="navbar navbar-default navtopv1">
                 <div class="container">
                     <div class="row">
                         <!-- Brand and toggle get grouped for better mobile display -->
@@ -131,9 +137,8 @@
         </header>
         <!-- End header -->
 
-
-         <!-- START REVOLUTION SLIDER 5.0-->
-         <div class="slider-headerrevo revo-v1 skew-slide">
+        <!-- START REVOLUTION SLIDER 5.0-->
+        <div class="slider-headerrevo revo-v1 skew-slide">
             <div id="rev_slider" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                 <ul>
                     <li class="item-1" data-transition="zoomin" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut">
@@ -170,78 +175,228 @@
         </div>
         <!-- End SLIDER SHOW -->
 
-        
-
-       
-
-        <!-- DATA -->
-        <section class="data">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6 col-sm-3 skew-general">
-                        <div class="data-text">
-                            <h3>1.5</h3>
-                            <p>Millones de horas de ingeniería</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 skew-general">
-                        <div class="data-text">
-                            <h3>319</h3>
-                            <p>Mil horas de capacitación en seguridad</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 skew-general">
-                        <div class="data-text">
-                            <h3>20.2</h3>
-                            <p>Millones de horas hombre de construcción</p>
-                        </div>
-                    </div>
-                    
+       <!-- INTRO -->
+       <section class="c-icon">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 a-text">
+                    <img src="images/intro/architecture-crane-tool.png" alt="#">
+                    <h3>Health &amp; safety firts</h3>
+                    <p>Quisque porttitor dui eget tellus ornare laoreet. Morbi ornare, tellus at finibus pretium, ex erat viverra monaeta seanme loremipsum.</p>
+                </div>
+                <div class="col-sm-4 a-text">
+                    <img src="images/intro/constructor-with-hat-and-a-gear.png" alt="#">
+                    <h3>Experienced Experts</h3>
+                    <p>In sit amet mi vel nunc fringilla imperdiet. Phasellus porta molestie efficitur vitae pretium ullamcorper ametur. Lorem ipsum mentoramen. </p>
+                </div>
+                <div class="col-sm-4 a-text">
+                    <img src="images/intro/construction-vehicle-for-concrete-transportation.png" alt="#">
+                    <h3>We’re Innovative</h3>
+                    <p>Vestibulum posuere dolor at orci egestas, in cursus lorem interdum, molestie gravida mauris. Quisque vulputate lacinia ipsum vel pellente. </p>
                 </div>
             </div>
-        </section>
-        <!-- End DATA -->
+        </div>
+    </section>
+    <!-- End INTRO -->
 
-        <!-- INTRO -->
-        <section class="c-icon">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 a-text">
-                        <img src="images/intro/1.png" alt="#">
-                        
-                        <h3>Plantas de Inyección de agua</h3>
-                        <h3>Separadores Trifásicos</h3>
-                        
+    <!-- OUR SERVICES -->
+    <section id="services" class="services-hommepage-02">
+        <div class="container">
+            <div class="row">
+                <div class="headding">
+                    <h3 class="title-3">What we offer</h3>
+                    <hr class="hr-80">
+                    <p>Donec iaculis vehicula augue nec dapibus. Phasellus varius malesuada eros vel rutrum.
+                        <br/> In venenatis condimentum odio non varius.</p>
+                </div>
+
+                <div class="services-gird">
+                    <div class="col-sm-4 services-item">
+                        <div class="services-img">
+                            <a href="#"><img src="images/services/services-01.jpg" alt="services" class="img-responsive">
+                            </a>
+                            <button type="button" class="btn btn-default button button_2 read-more">Read More</button>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="title-4">House repair</h4>
+                            <p>Quisque porttitor dui eget tellus ornare laoreet. Morbi ornare, tellus at finibus pretium, ex erat viverra.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-4 a-text">
-                        <img src="images/intro/2.png" alt="#">
-                        
-                        <h3>Bombas HPS</h3>
-                        <h3>CPF's</h3>
+                    <div class="col-sm-4 services-item">
+                        <div class="services-img">
+                            <a href="#"><img src="images/services/services-02.jpg" alt="services" class="img-responsive">
+                            </a>
+                            <button type="button" class="btn btn-default button button_2 read-more">Read More</button>
+                        </div>
+                        <div class="servicesxs-content">
+                            <h4 class="title-4">Construction buildings</h4>
+                            <p>Quisque porttitor dui eget tellus ornare laoreet. Morbi ornare, tellus at finibus pretium, ex erat viverra.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-4 a-text">
-                        <img src="images/intro/3.png" alt="#">
-                       
-                        <h3>Subestaciones Eléctricas</h3>
-                        <h3>Líneas eléctricas de 13.8 kv, 34,5 kv y 69 kv</h3>
+                    <div class="col-sm-4 services-item">
+                        <div class="services-img">
+                            <a href="#"><img src="images/services/services-03.jpg" alt="services" class="img-responsive">
+                            </a>
+                            <button type="button" class="btn btn-default button button_2 read-more">Read More</button>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="title-4">Conceptual designs</h4>
+                            <p>Quisque porttitor dui eget tellus ornare laoreet. Morbi ornare, tellus at finibus pretium, ex erat viverra.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End INTRO -->
+        </div>
+    </section>
+    <!-- End OUT SERVICES -->
+
+    <!-- DATA -->
+    <section class="data">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 skew-general">
+                    <div class="data-text">
+                        <h3>50+</h3>
+                        <p>Staff members</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 skew-general">
+                    <div class="data-text">
+                        <h3>10</h3>
+                        <p>Partners</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 skew-general">
+                    <div class="data-text">
+                        <h3>120+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 skew-general">
+                    <div class="data-text">
+                        <h3>400</h3>
+                        <p>Satisfied Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End DATA -->
+
+    <!-- OUR PROJECT -->
+    <section id="project" class="project-homepage-2">
+        <div class="container">
+            <div class="row">
+                <div class="headding">
+                    <h3 class="title-3">Featured projects</h3>
+                    <hr class="hr-80">
+                    <p>Donec iaculis vehicula augue nec dapibus. Phasellus varius malesuada eros vel rutrum.
+                        <br/> In venenatis condimentum odio non varius.</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-gird">
+            <div class="slider-project-home-2 owl-carousel owl-theme">
+                <div class="project-item">
+                    <a href="#"><img src="images/project/project-01.jpg" class="img-responsive" alt="project" />
+                    </a>
+                    <div class="project-content">
+                        <h3 class="white-text">
+                        Luxurious Department
+                    </h3>
+                        <button type="button" class="btn btn-default button button_2 read-more">View Project</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="#"><img src="images/project/project-02.jpg" class="img-responsive" alt="project" />
+                    </a>
+                    <div class="project-content">
+                        <h3 class="white-text">
+                        Luxurious Department
+                    </h3>
+                        <button type="button" class="btn btn-default button button_2 read-more">View Project</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="#"><img src="images/project/project-03.jpg" class="img-responsive" alt="project" />
+                    </a>
+                    <div class="project-content">
+                        <h3 class="white-text">
+                        Luxurious Department
+                    </h3>
+                        <button type="button" class="btn btn-default button button_2 read-more">View Project</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="#"><img src="images/project/project-02.jpg" class="img-responsive" alt="project" />
+                    </a>
+                    <div class="project-content">
+                        <h3 class="white-text">
+                        Luxurious Department
+                    </h3>
+                        <button type="button" class="btn btn-default button button_2 read-more">View Project</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="#"><img src="images/project/project-01.jpg" class="img-responsive" alt="project" />
+                    </a>
+                    <div class="project-content">
+                        <h3 class="white-text">
+                        Luxurious Department
+                    </h3>
+                        <button type="button" class="btn btn-default button button_2 read-more">View Project</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <a href="#"><img src="images/project/project-03.jpg" class="img-responsive" alt="project" />
+                    </a>
+                    <div class="project-content">
+                        <h3 class="white-text">
+                        Luxurious Department
+                    </h3>
+                        <button type="button" class="btn btn-default button button_2 read-more">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End OUR PROJECT -->
+
+    
+
+    <!-- LIST LOGO -->
+    <div class="list-logo">
+        <div class="container">
+            <div class="list-logo-content">
+                <div class="row">
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <img src="images/list-logo/1a.png" class="img-responsive" alt="logo" />
+                    </div>
+                    <div class="col-xs-2">
+                        <img src="images/list-logo/2a.png" class="img-responsive" alt="logo" />
+                    </div>
+                    <div class="col-xs-2">
+                        <img src="images/list-logo/3a.png" class="img-responsive" alt="logo" />
+                    </div>
+                    <div class="col-xs-2">
+                        <img src="images/list-logo/4a.png" class="img-responsive" alt="logo" />
+                    </div>
+                    <div class="col-xs-2">
+                        <img src="images/list-logo/5a.png" class="img-responsive" alt="logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
         
-        
-       
-       
-         <!-- FOOTER -->
-         <footer>
-           
+        <!-- FOOTER -->
+        <footer>
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
-                        
-                        
+                                              
                         <div class="col-sm-6 ">
                             <h4 class="footer-title">CONTACTOS</h4>
                             <p class="footer"><b>Teléfono:</b> +593 2988700 ext. 8110/ +593 967020885</p>
