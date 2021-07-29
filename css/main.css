@@ -1499,7 +1499,7 @@ select::-ms-expand {
     font-size: 14px;
     color: #333 !important;
     font-weight: 700;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding-bottom: 55px;
 }
 .ic-dropdown {
