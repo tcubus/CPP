@@ -403,20 +403,20 @@ grid-column: 16/28;
             
             }
         .gridpg__image{
-        grid-row: 2/6;
+        grid-row: 2/5;
         grid-column: 20/28;
         /*border: 3px solid red;*/
         gap: 2em;
         }
         
         .gridpg__image2{
-        grid-row: 8/14;
+        grid-row: 6/14;
         grid-column: 20/28;
         gap: 2em;
         }
         
         .gridpg__image3{
-        grid-row: 14/29;
+        grid-row: 9/20;
         grid-column: 20/28;
         }
         
