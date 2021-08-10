@@ -1,9 +1,3 @@
-
-
-
-
-
-
 .navtopv1:after {
     background: #cf142b !important;
     width: 50%;
@@ -46,7 +40,7 @@
 
 .grid1{
     background: #fff;
-    height: 65vh;
+    height: 45vh;
     width: 80%;
     max-width: 1200px;
     margin: auto;
@@ -57,16 +51,96 @@
     overflow: hidden;
     }
     
-    .grid1__texts{
+.grid1__texts{
         grid-row: 2/-2;
         grid-column: 2/8;
         display: flex;
     }
 
+.grid2{
+        background: #fff;
+        height: 90vh;
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+        box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
+        display: grid;
+        /*grid-auto-flow: dense;
+        grid-auto-rows: 10rem;
+        grid-template-columns: repeat(auto-fit, min max(15rem, 1fr));*/
+        grid-template-rows: repeat(11,1fr);
+        grid-template-columns: repeat(15,1fr);   
+        overflow: hidden;
+        }
+
+/*.grid2::before{
+        content:"";
+        grid-column: 7/11;
+        grid-row: 2/-4;
+        background-image: url(/slider/WebCPP/Servicios/CppEcuador.jpg);
+        background-size: cover;
+        background-position: right top;
+        display: flex;
+}*/
+   
+        
+.grid2__texts{
+        grid-row: 2/4;
+        grid-column: 2/8;
+        
+        }
+.grid2__image{
+    grid-row: 2/4;
+    grid-column: 9/15;
+    /*border: 3px solid red;*/
+}
+
+.grid3__image{
+    grid-row: 7/12;
+    grid-column: 2/8;
+}
+
+.grid4__image{
+    grid-row: 7/12;
+    grid-column: 9/15;
+}
 
 
 
 
+.grid3__texts{
+    grid-row: 2/4;
+    grid-column: 4/12;
+}
+
+.grid5__image{
+grid-row: 10/12;
+grid-column: 9/16;
+/*border: 3px solid red;*/
+}
+
+.grid6_image{
+grid-row: 8/10;
+grid-column: 9/12;
+}
+
+
+.flex-container{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding: 20px;
+    
+}
+
+.flex-container div{
+    width: 390px;
+    margin:40px;
+    text-align: center;
+    line-height: 7px;
+    
+    
+}
 
 
 @media only screen and  (max-width: 1199px) {
@@ -78,9 +152,6 @@
         display: none;
     }
     .navtopv1:after {
-        display: none;
-    }
-    .navtopv2:after {
         display: none;
     }
     .menu-skew:after {
@@ -96,9 +167,13 @@
     z-index: 999;
     top: 1px;
     cursor: pointer;
-    padding: 18px 15px;
+    padding: 18px 1px;
     font-size: 14px;
 }
+
+
+
+
 
 
 
@@ -106,7 +181,7 @@
 
     .movimiento_logo{
         position: relative;
-        top:-20px;
+        top:-10px;
         left: -15%;
         
      }
@@ -124,7 +199,7 @@
     
 .footer-logo {
     padding-bottom: 2px;
-    padding-top: 40px;
+    padding-top: 55px;
     margin-left: 100px;
     left: 400px;
     margin-top:  -40px;
@@ -133,7 +208,7 @@
 
 .img-responsive-footer{
     display: block;
-    max-width: 100%;
+    max-width: 55%;
     height: auto;
 }
 
@@ -141,14 +216,11 @@
     display: inline-block;
   max-width: 168%;
   height: auto;
-  border-radius: 10px;
- 
 }
 
 .col-md-9{
     width: 60%;
 }
-
      
 }
 
@@ -156,14 +228,14 @@
 
     .movimiento_logo{
         position: relative;
-        top:-30px;
+        top:-10px;
         left: 1%;
              
      }
 
      .img-responsive{
         display: block;
-       max-width: 80%;
+       max-width: 60%;
        height: auto;
     }
 
@@ -178,13 +250,13 @@
 
     .skew-footer {
         position: relative;
-        margin-left: 40px;
+        margin-left: 90px;
     }
 
     .footer-logo {
         padding-bottom: 20px;
         padding-top: 30px;
-        margin-left: px;
+        margin-left: 10px;
         left: 360px;
         margin-top:  -20px;
     }
@@ -192,96 +264,23 @@
 
     .img-responsive-footer{
         display: block;
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
     }
 
     .img-responsive2{
         display: inline-block;
-      max-width: 130%;
+      max-width: 170%;
       height: auto;
-      border-radius: 10px;
-    }
-    
-    .col-md-9{
-        width: 60%;
-    }
-
-    
-.grid1{
-background: #fff;
-height: 65vh;
-width: 80%;
-max-width: 1200px;
-margin: auto;
-box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
-display: grid;
-grid-template-columns: repeat(8,1fr);
-grid-template-rows: repeat(6,1fr);
-overflow: hidden;
-}
-
-.grid1__texts{
-    grid-row: 2/-2;
-    grid-column: 2/8;
-    display: flex;
-}
-
-
-
- 
-
-   
-
-@media only screen and (min-width:1200px) and (max-width: 1299px) {
-
-    .movimiento_logo{
-        position: relative;
-        top:-30px;
-        left: -1%;
-    }
-
-.navbar-nav {       /* Menús CPP*/
-    
-    margin-left: -50px;
-    }
-
-    .skew-footer {
-        position: relative;
-        margin-left: 40px;
-    }
-
-    .footer-logo {
-        padding-bottom: 20px;
-        padding-top: 30px;
-        margin-left: px;
-        left: 340px;
-        margin-top:  -20px;
-    }
-
-    .img-responsive-footer{
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .img-responsive2{
-        display: inline-block;
-      max-width: 130%;
-      height: auto;
-      border-radius: 10px;
     }
 
     .col-md-9{
-
         width: 60%;
-        margin-left: 50px;
-        
     }
 
     .grid1{
         background: #fff;
-        height: 65vh;
+        height: 54vh;
         width: 80%;
         max-width: 1200px;
         margin: auto;
@@ -294,7 +293,82 @@ overflow: hidden;
         
         .grid1__texts{
             grid-row: 2/-2;
-            grid-column: 2/;
+            grid-column: 2/8;
+            display: flex;
+        }
+
+
+}
+
+
+   
+
+@media only screen and (min-width:1200px) and (max-width: 1299px) {
+
+    .movimiento_logo{
+        position: relative;
+        top:0px;
+        left: -1%;
+    }
+
+    .img-responsive{
+        display: block;
+       max-width: 85%;
+       height: auto;
+    }
+
+  /* Menús CPP*/   
+.navbar-nav {      
+    margin-left: -50px;
+    }
+
+    .skew-footer {
+        position: relative;
+        margin-left: 40px;
+    }
+
+    .footer-logo {
+        padding-bottom: 10px;
+        padding-top: 30px;
+        margin-left: 10px;
+        left: 190px;
+        margin-top:-20px;
+    }
+
+    .img-responsive-footer{
+        display: block;
+        max-width: 50%;
+        height: auto;
+    }
+
+    .img-responsive2{
+      display: inline-block;
+      max-width: 130%;
+      height: auto;
+      /*border-radius: 10px;*/
+    }
+
+    .col-md-9{
+
+        width: 60%;    
+    }
+
+    .grid1{
+        background: #fff;
+        height: 54vh;
+        width: 80%;
+        max-width: 1200px;
+        margin: auto;
+        box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(6,1fr);
+        overflow: hidden;
+        }
+        
+        .grid1__texts{
+            grid-row: 2/-2;
+            grid-column: 2/8;
             display: flex;
         }
 
@@ -304,15 +378,18 @@ overflow: hidden;
 }
     
 
-
-
-
 @media only screen and (min-width: 992px) and  (max-width: 1199px) {
 
     .movimiento_logo{
         position: relative;
-        top:-30px;
+        top:-10px;
         left: -4%;
+    }
+
+    .img-responsive{
+        display: block;
+       max-width: 75%;
+       height: auto;
     }
     
     .navbar-nav {       /* Menús CPP*/
@@ -334,9 +411,8 @@ overflow: hidden;
     .footer-logo {
         padding-bottom: 20px;
         padding-top: 1px;
-        /*margin-left: -40px;*/
         left: 140px;
-        margin-top:  -5px;
+        margin-top:  7px;
     }
 
     .col-md-4{
@@ -349,15 +425,15 @@ overflow: hidden;
 
     .img-responsive-footer{
         display: block;
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
     }
 
     .img-responsive2{
-        display: inline-block;
-      max-width: 135%;
-      height: auto;
-      border-radius: 10px;
+    display: inline-block;
+    max-width: 135%;
+    height: auto;
+    /*border-radius: 10px;*/
     }
 
     .col-md-9{
@@ -369,28 +445,28 @@ overflow: hidden;
         width: 30%;
     }
 
-}
 
-.page-headding1 {
+
+    .page-headding1 {
     
     padding: 10px 0;
     text-align: center;
-}
+    }
 
 
 
-.footer  {
+    .footer  {
     font-size: 14px;
     color: white;
     line-height: 15px !important;
-}
+    }
 
-.footer-top {
+    .footer-top {
     background: #333333;
     padding: 20px 0;
-}
+    }
 
-.skew-footer:before {
+    .skew-footer:before {
     position: absolute;
     width: 1px;
     height: 100%;
@@ -401,30 +477,31 @@ overflow: hidden;
     transform: skew(-10deg);
     -ms-transform: skew(-10deg);
     -webkit-transform: skew(-10deg);
-}
+    }
 
-.page-headding1{
+    .page-headding1{
     padding: 10px 0;
     text-align: center;
-}
+    }
 
-#video, video{
+    #video, video{
     margin: 0 auto;
     padding-top: 40px;
     width: 700px;
     height: 550px;
-}
+    }
 
-.map-logo {
+    .map-logo {
     position: absolute;
     top: 39%;
     left: 47.5%;
-}
+    }
 
-.ip-search {
+    .ip-search {
     color: white;
-}
+    }
 
+}
 
 @media only screen and (max-width: 991px) {
 
@@ -449,16 +526,9 @@ overflow: hidden;
         font-size: 14px;
     }
 
-    .img-responsive2{
-      display: inline-block;
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      
-    }
+    
 
-    
-    
+
 
 }     
 
@@ -470,6 +540,7 @@ overflow: hidden;
         display: block;
         max-width: 40%;
         height: auto;
+        left: 100px;
     }
 
     .footer-logo {
@@ -479,6 +550,8 @@ overflow: hidden;
         margin-top:  -40px;
         
     }
+
+    
 
 }
 
@@ -518,9 +591,6 @@ overflow: hidden;
     .title-3 {
         font-size: 25px;
     }
-
-
-    
 
 }
 
