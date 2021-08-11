@@ -314,7 +314,7 @@ border: 1px solid #cf142b;
         margin: auto;
         box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 80px;
         grid-row-gap: 10px;
     }
