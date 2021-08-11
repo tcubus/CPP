@@ -292,7 +292,7 @@ border: 1px solid #cf142b;
         margin: auto;
         box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
         grid-template-columns: 2fr repeat(1, 1fr);
-        grid-template-rows: (2fr, 1fr);
+        grid-template-rows: (3fr, 1fr);
         grid-column-gap: 50px;
         grid-row-gap: 1px;
     }
