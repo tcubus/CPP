@@ -1001,9 +1001,29 @@ object-fit: cover;
     .nv { grid-area: 7 / 1 / 8 / 2; }
         
 
+    .servicios {
+    display: grid;
+    background: #fff;
+    /*height: 70vh;*/
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    grid-auto-flow: dense;
+    }
+    .ser_text {grid-area: 1 / 1 / 2 / 2;}
+    .ser_img1 {grid-area: 2 / 1 / 3 / 2;; max-width: 200px; max-height: 100px; justify-self: center; }
+    .ser_img2 {grid-area: 3 / 1 / 4 / 2;; max-width: 200px; max-height: 100px; justify-self: center;}
+    .ser_img3 { grid-area: 4 / 1 / 5 / 2; max-width: 200px; max-height: 100px; justify-self: center;}
+
     .text-proy{
-    width: 400px;
-    height: 300px;
+    width: 250px;
+    height: 500px;
     margin: 90px auto;
     position: relative;
     text-align: center;         
