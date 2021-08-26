@@ -45,8 +45,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    line-height: 1.4em;
-    color: #333333;
+    line-height: 28px;
+    color: #666666;
     text-align: justify;
 }
 ul li {
@@ -82,7 +82,7 @@ select::-ms-expand {
     font-size: 40px;
     color: #333333;
     font-weight: 800;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin: 0;
 }
 .hr-80 {
@@ -1828,7 +1828,7 @@ select::-ms-expand {
     color: #fff;
 }
 .data-text h3 {
-    color:  #cf142b;
+    color:  white;
     font-size: 40px;
     font-weight: 800;
 }
