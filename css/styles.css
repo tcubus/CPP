@@ -323,7 +323,7 @@ border: 1px solid #cf142b;
     .qs {
         display: grid;
         background: #fff;
-        padding: 100px;
+        padding: 140px;
         width: 90%;
         max-width: 1200px;
         margin: auto;
@@ -366,7 +366,7 @@ border: 1px solid #cf142b;
 
         .servicios {
             display: grid;
-            padding: 100px;
+            padding: 140px;
             background: #fff;
             /*height: 70vh;*/
             width: 90%;
@@ -389,7 +389,7 @@ border: 1px solid #cf142b;
 
     .parent {
         display: grid;
-        padding: 100px;
+        padding: 140px;
         background: #fff;
         /*height: 170vh;*/
         justify-content: space-evenly; /*Alinear con un mismo espacio"en vez de padding"*/
