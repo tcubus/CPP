@@ -1259,7 +1259,7 @@ border: 1px solid #cf142b;
     .qs {
     display: grid;
     background: #fff;
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -1284,7 +1284,7 @@ border: 1px solid #cf142b;
     display: grid;
     background: #fff;
     /*height: 70vh;*/
-    width: 80%;
+    width: 90%;
     max-width: 900px;
     margin: auto;
     padding: 20px;
@@ -1322,7 +1322,7 @@ border: 1px solid #cf142b;
         background: #fff;
         /*height: 105vh;*/
         justify-content: space-evenly;
-        width: 80%;
+        width: 90%;
         max-width: 1200px;
         margin: auto;
         box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
@@ -1351,7 +1351,7 @@ border: 1px solid #cf142b;
             background: #fff;
           
             /*height: 105vh;*/
-            width: 80%;
+            width: 90%;
             max-width: 1200px;
             margin: auto;
             box-shadow: 0 0 20px -10px rgba(138, 135, 135, 0.5);
