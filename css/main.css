@@ -1942,7 +1942,9 @@ select::-ms-expand {
 .team-work {
     font-size: 14px;
     color: #666666;
-    padding-left: 10px;
+    margin: -13px;  
+    text-align: center;
+    
 }
 /* CTA */
 #cta {
