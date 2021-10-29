@@ -222,7 +222,8 @@
         display: none;
     }
     .navtopv2 .ic-search {
-        right: 70px;
+        right: 30px;
+        top: -40px;
     }
     .navtopv2 .col-md-3 {
         width: 100%;
